@@ -127,7 +127,7 @@ export class AssistantAIEngine {
 
         // 3. Generate response using WebLLM
         const messages = [
-            { role: "system" as const, content: "You are a helpful AI assistant on Arjav Jain's portfolio website. Answer questions based on the provided context retrieved from his resume. Keep answers concise, helpful, and directly address the user's question without making up information. If you don't know, state so clearly." },
+            { role: "system" as const, content: "You are a helpful AI assistant on Kushagra Pandey's portfolio website. Answer questions based on the provided context retrieved from his resume. Keep answers concise, helpful, and directly address the user's question without making up information. If you don't know, state so clearly." },
             { role: "user" as const, content: `Context:\n${context}\n\nQuestion: ${question}` }
         ];
 
