@@ -15,30 +15,30 @@ export function About() {
           <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 md:p-12 hover:shadow-2xl hover:shadow-blue-500/10 transition-all group">
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
               <p>
-                I'm <span className="text-blue-400 font-mono">Arjav Jain</span>, a Computer Science student specializing in Data Science at{' '}
-                <span className="text-purple-400">GL Bajaj Institute of Technology and Management</span>, with strong foundational education from <span className="text-pink-400">Kendriya Vidhyalaya</span>.
+                I'm <span className="text-blue-400 font-mono">Kushagra Pandey</span>, a Computer Science student at{' '}
+                <span className="text-purple-400">Guru Gobind Singh Indraprastha University</span> currently in my B.Tech program.
               </p>
               <p>
-                I build <span className="text-blue-400">AI agents</span>, <span className="text-purple-400">automation workflows</span>, and{' '}
-                <span className="text-pink-400">system-level software</span> that solve real-world problems.
+                I build <span className="text-blue-400">scalable RESTful APIs</span>, <span className="text-purple-400">modern full-stack applications</span>, and{' '}
+                <span className="text-pink-400">high-performance backend services</span> that solve real-world problems.
               </p>
               <p>
-                With experience in open source development, backend systems, and AI-driven automation, I'm passionate about creating intelligent solutions that scale.
+                With experience in backend engineering, open-source development, and cloud deployments, I'm passionate about creating intelligent solutions that scale and perform.
               </p>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 mt-12 pt-8 border-t border-white/10">
               <div className="text-center">
-                <div className="text-3xl bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">300+</div>
-                <div className="text-sm text-gray-400">Problems Solved</div>
+                <div className="text-3xl bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">8.3</div>
+                <div className="text-sm text-gray-400">CGPA</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">1900</div>
-                <div className="text-sm text-gray-400">LeetCode Rating</div>
+                <div className="text-3xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">3+</div>
+                <div className="text-sm text-gray-400">Hackathon Wins</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl bg-gradient-to-r from-pink-400 to-blue-400 bg-clip-text text-transparent mb-2">5+</div>
+                <div className="text-3xl bg-gradient-to-r from-pink-400 to-blue-400 bg-clip-text text-transparent mb-2">3+</div>
                 <div className="text-sm text-gray-400">Major Projects</div>
               </div>
             </div>
