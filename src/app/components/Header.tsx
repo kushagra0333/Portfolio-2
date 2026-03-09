@@ -12,7 +12,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <div className="text-xl font-mono">
             <span className="text-blue-400">&lt;</span>
-            Arjav Jain
+            Kushagra Pandey
             <span className="text-purple-400">/&gt;</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
