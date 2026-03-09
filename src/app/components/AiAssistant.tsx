@@ -38,7 +38,7 @@ export function AiAssistant() {
             setIsReady(true);
             setMessages([{
                 role: 'assistant',
-                content: "Hi! I'm Arjav's local AI assistant. I've read his resume—what would you like to know?"
+                content: "Hi! I'm Kushagra's local AI assistant. I've read his resume—what would you like to know?"
             }]);
         } catch (e) {
             console.error(e);
@@ -161,8 +161,8 @@ export function AiAssistant() {
                         >
                             <div
                                 className={`max-w-[85%] p-3 rounded-2xl text-sm leading-relaxed ${msg.role === 'user'
-                                        ? 'bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-tr-sm'
-                                        : 'bg-white/10 text-gray-200 border border-white/5 rounded-tl-sm'
+                                    ? 'bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-tr-sm'
+                                    : 'bg-white/10 text-gray-200 border border-white/5 rounded-tl-sm'
                                     }`}
                             >
                                 {msg.content}
@@ -183,7 +183,7 @@ export function AiAssistant() {
                             value={input}
                             onChange={(e) => setInput(e.target.value)}
                             disabled={!isReady || isGenerating}
-                            placeholder={isReady ? "Ask about Arjav's work..." : "Initialize AI first..."}
+                            placeholder={isReady ? "Ask about Kushagra's work..." : "Initialize AI first..."}
                             className="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-shadow disabled:opacity-50"
                         />
                         <button
