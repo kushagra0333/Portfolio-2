@@ -25,7 +25,7 @@ export function Contact() {
                 <div className="space-y-4">
                   {/* Email */}
                   <a
-                    href="mailto:arjavjain.jain1942@gmail.com"
+                    href="mailto:kushagrapandey0333@gmail.com"
                     className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all group"
                   >
                     <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -33,27 +33,13 @@ export function Contact() {
                     </div>
                     <div>
                       <div className="text-sm text-gray-400">Email</div>
-                      <div className="text-blue-400 font-mono">arjavjain.jain1942@gmail.com</div>
-                    </div>
-                  </a>
-
-                  {/* Phone */}
-                  <a
-                    href="tel:+919310082225"
-                    className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all group"
-                  >
-                    <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center group-hover:scale-110 transition-transform">
-                      <Phone className="w-6 h-6" />
-                    </div>
-                    <div>
-                      <div className="text-sm text-gray-400">Mobile</div>
-                      <div className="text-cyan-400 font-mono">+91 9310082225</div>
+                      <div className="text-blue-400 font-mono">kushagrapandey0333@gmail.com</div>
                     </div>
                   </a>
 
                   {/* GitHub */}
                   <a
-                    href="https://github.com/arjavjain5203"
+                    href="https://github.com/kushagra0333"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all group"
@@ -63,13 +49,13 @@ export function Contact() {
                     </div>
                     <div>
                       <div className="text-sm text-gray-400">GitHub</div>
-                      <div className="text-purple-400 font-mono">github.com/arjavjain5203</div>
+                      <div className="text-purple-400 font-mono">github.com/kushagra0333</div>
                     </div>
                   </a>
 
                   {/* LinkedIn */}
                   <a
-                    href="https://www.linkedin.com/in/arjavjain5203/"
+                    href="https://linkedin.com/in/its-kushagra-pandey"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all group"
@@ -79,7 +65,7 @@ export function Contact() {
                     </div>
                     <div>
                       <div className="text-sm text-gray-400">LinkedIn</div>
-                      <div className="text-pink-400 font-mono">linkedin.com/in/arjavjain5203</div>
+                      <div className="text-pink-400 font-mono">linkedin.com/in/its-kushagra-pandey</div>
                     </div>
                   </a>
                 </div>
