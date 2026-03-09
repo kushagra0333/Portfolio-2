@@ -3,52 +3,22 @@ import { useState } from 'react';
 
 const projects = [
   {
-    title: 'AI-Powered Bug Reproduction System',
-    description: 'An automated system to reproduce user-reported bugs from natural language descriptions using NLP and web automation principles. Built a Python/Flask API that orchestrates execution using Playwright.',
-    tags: ['Python', 'Flask', 'NLP', 'Playwright', 'Docker'],
+    title: 'MITR SOS -- Emergency Response Platform',
+    description: 'Developed a full-stack emergency response platform using React, Node.js, Express, and MongoDB. Designed secure REST APIs with JWT authentication for real-time emergency alerts and GPS tracking. Integrated geolocation APIs and external notification services.',
+    tags: ['React', 'Node.js', 'Express', 'MongoDB'],
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
-    title: 'BABY Programming Language & Compiler',
-    description: 'Built a custom programming language and native compiler in C++ with a full pipeline: lexer, parser, AST construction, semantic checks, and x86-64 assembly generation.',
-    tags: ['C++', 'Compiler', 'x86-64', 'React', 'Node.js'],
+    title: 'AI-Powered Bug Reproduction System',
+    description: 'Developed a backend service that converts structured bug descriptions into executable browser automation workflows. Built an orchestration layer to execute automated test steps, capture logs, and generate reproducible artifacts including videos and screenshots.',
+    tags: ['Python', 'Backend', 'Browser Automation', 'Docker'],
     gradient: 'from-purple-500 to-pink-500',
   },
   {
-    title: 'Camera-Based Virtual Trackpad & Gesture Input Driver',
-    description: 'Real-time Linux daemon that converts webcam hand gestures into a kernel-level virtual input device using uinput across Wayland/X11.',
-    tags: ['Linux', 'C/C++', 'Wayland', 'X11'],
+    title: 'COOK Programming Language',
+    description: 'Designed and implemented a systems programming language with a full compiler pipeline, including lexical analysis, parser, AST generation, and x86-64 assembly generation using NASM and GNU LD. Also developed an interactive web playground.',
+    tags: ['C/C++', 'Compiler', 'x86-64', 'NASM'],
     gradient: 'from-pink-500 to-rose-500',
-  },
-  {
-    title: 'INDICA Voice AI Assistant',
-    description: 'Voice-first Python assistant integrating Google Gemini LLM with Whisper STT and pyttsx3 TTS for end-to-end conversational I/O and action execution.',
-    tags: ['Python', 'Gemini AI', 'Whisper STT', 'Voice Recognition'],
-    gradient: 'from-orange-500 to-yellow-500',
-  },
-  {
-    title: 'AI Conversational Transport Bot',
-    description: 'High-performance FastAPI backend supporting SMS, WhatsApp, and simulated voice calls using Twilio webhooks. Integrated Gemini AI for multilingual conversation.',
-    tags: ['FastAPI', 'WhatsApp API', 'Gemini AI', 'Twilio'],
-    gradient: 'from-green-500 to-emerald-500',
-  },
-  {
-    title: 'Student Report Card Management System',
-    description: 'Python-based application that uses MySQL for database management. Provides functionalities to manage student records, add/update marks, and generate report cards.',
-    tags: ['Python', 'MySQL', 'Database Management'],
-    gradient: 'from-blue-600 to-indigo-600',
-  },
-  {
-    title: 'Boogle Search Engine',
-    description: 'Python-based custom search engine algorithm with web scraping and indexing capabilities.',
-    tags: ['Python', 'Search Engine', 'Algorithms'],
-    gradient: 'from-teal-500 to-emerald-500',
-  },
-  {
-    title: 'Virtual Trackpad System',
-    description: 'AI-powered input driver that transforms a webcam into a touch-free mouse using MediaPipe and Kalman Filters for robust hand tracking and jitter reduction.',
-    tags: ['Python', 'MediaPipe', 'Kalman Filters', 'AI'],
-    gradient: 'from-fuchsia-500 to-purple-500',
   },
 ];
 
