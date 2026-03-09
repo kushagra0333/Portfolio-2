@@ -1,24 +1,31 @@
 const experiences = [
   {
-    year: 'December 2025 – Present',
-    role: 'AI Agent Developer Intern',
-    company: 'XDigiPath Softwares India Private Limited',
-    description: 'Built AI workflow agents on n8n integrated with Meta’s WhatsApp Business API to automate customer interaction, ticket creation, and knowledge-base queries. Implemented webhook pipelines, RAG memory, and tool-calling workflows.',
+    year: 'Nov 2025 – Present',
+    role: 'Software Development Engineer',
+    company: 'Agreeya Solutions',
+    description: 'Developed scalable RESTful APIs using Python and Node.js for high-concurrency backend services. Implemented authentication and authorization using JWT, optimized MongoDB/SQL queries reducing latency by 35%, and resolved production issues.',
     color: 'from-blue-500 to-purple-500',
   },
   {
-    year: 'August 2025 – November 2025',
+    year: 'Aug 2025 – Oct 2025',
     role: 'Open Source Project Admin',
     company: 'GirlScript Summer of Code',
-    description: 'Lead development and mentoring for Pustak Ghar. Designed and implemented frontend components using ReactJS and backend APIs in Python/Flask. Managed project roadmap and Git-based version control.',
+    description: 'Led and mentored 20+ contributors on an education-focused open-source project. Managed issue tracking, pull request reviews, and roadmap planning ensuring code quality and timely feature delivery.',
     color: 'from-purple-500 to-pink-500',
   },
   {
-    year: 'July 2025 – August 2025',
-    role: 'R&D Intern',
-    company: 'StarkSeek',
-    description: 'Developed an AI-powered Bug Reproduction System to automate test case generation from natural language bug reports using Gemini API and Playwright.',
+    year: 'Feb 2024 – Jul 2024',
+    role: 'Backend Developer Intern',
+    company: 'MakerStage',
+    description: 'Developed REST APIs for an event management platform using Node.js and Express. Designed MongoDB schemas, integrated third-party services such as payment gateways, and deployed backend services on cloud infrastructure.',
     color: 'from-pink-500 to-orange-500',
+  },
+  {
+    year: 'Jan 2024 – Jul 2024',
+    role: 'Backend Developer Intern',
+    company: 'Xdigipath Software India Pvt. Ltd.',
+    description: 'Developed backend services for mobile applications using Node.js and Express.js. Implemented CRUD APIs, improved backend stability, and assisted in integrating authentication and payment third-party APIs.',
+    color: 'from-orange-500 to-yellow-500',
   },
 ];
 
