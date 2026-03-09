@@ -25,12 +25,12 @@ export function Hero() {
 
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl max-w-5xl mx-auto leading-tight">
-            Building <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">AI Agents</span>, Automation Systems, and Scalable Full-Stack Applications.
+            <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Full Stack</span>, MERN stack, Flutter developer
           </h1>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-gray-400 font-mono">
-            AI Engineer <span className="text-purple-400">|</span> Automation Builder <span className="text-purple-400">|</span> Full Stack Developer
+            Backend Developer <span className="text-purple-400">|</span> Full Stack Developer
           </p>
 
           {/* CTA buttons */}
@@ -45,7 +45,7 @@ export function Hero() {
               </span>
             </button>
             <a
-              href="https://github.com/arjavjain5203"
+              href="https://github.com/kushagra0333"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg hover:bg-white/10 hover:shadow-xl hover:shadow-purple-500/30 transition-all hover:scale-105"
