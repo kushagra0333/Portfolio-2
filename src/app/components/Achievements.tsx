@@ -10,38 +10,17 @@ const achievements = [
   },
   {
     icon: Award,
-    title: '2nd Runnerups',
+    title: '2nd Runner-Up',
     event: 'Code for Bharat Season 2',
     location: 'Tech masters India',
     gradient: 'from-blue-500 to-purple-500',
   },
   {
-    icon: Award,
-    title: 'Best Innovation Award',
-    event: 'MEDHA 2025',
-    location: 'IIT Bombay x GL Bajaj',
-    gradient: 'from-purple-500 to-pink-500',
-  },
-  {
     icon: Code,
-    title: '300+ Problems Solved',
-    event: 'Competitive Programming',
-    location: 'LeetCode, CodeChef, HackerRank',
+    title: 'Subject Topper',
+    event: 'Discrete Mathematics',
+    location: 'Guru Gobind Singh Indraprastha University',
     gradient: 'from-green-500 to-emerald-500',
-  },
-  {
-    icon: TrendingUp,
-    title: 'LeetCode Rating 1900',
-    event: 'Codeforces ranking 700',
-    location: 'Algorithm Contests',
-    gradient: 'from-orange-500 to-red-500',
-  },
-  {
-    icon: Award,
-    title: 'Member',
-    event: 'Navrang Cultural Club',
-    location: 'GL Bajaj',
-    gradient: 'from-indigo-500 to-blue-500',
   },
 ];
 
@@ -98,16 +77,16 @@ export function Achievements() {
         <div className="mt-16 bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-md border border-white/10 rounded-2xl p-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl md:text-5xl bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">3</div>
-              <div className="text-gray-400">Hackathon Awards</div>
+              <div className="text-4xl md:text-5xl bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">8.3</div>
+              <div className="text-gray-400">CGPA</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">300+</div>
-              <div className="text-gray-400">Problems Solved</div>
+              <div className="text-4xl md:text-5xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">3+</div>
+              <div className="text-gray-400">Hackathon Wins</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent mb-2">~1900</div>
-              <div className="text-gray-400">LeetCode Rating</div>
+              <div className="text-4xl md:text-5xl bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent mb-2">3+</div>
+              <div className="text-gray-400">Major Projects</div>
             </div>
           </div>
         </div>
