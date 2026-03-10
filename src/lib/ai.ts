@@ -125,13 +125,13 @@ export class AssistantAIEngine {
         }));
 
         scoredChunks.sort((a, b) => b.score - a.score);
-        // Take Top 4 chunks
-        const topChunks = scoredChunks.slice(0, 4).map(c => c.text);
+        // Take Top 5 chunks for better context window filling
+        const topChunks = scoredChunks.slice(0, 5).map(c => c.text);
         const context = topChunks.join('\n\n');
 
         // 3. Generate response using WebLLM
         const messages = [
-            { role: "system" as const, content: "You are a helpful AI assistant on Kushagra Pandey's portfolio website. Answer questions based on the provided context retrieved from his resume. Keep answers concise, helpful, and directly address the user's question without making up information. If you don't know, state so clearly." },
+            { role: "system" as const, content: "You are a helpful AI assistant on Kushagra Pandey's portfolio website. Your primary source of truth is the provided context from his resume. Keep answers concise, professional, and directly address the user's question without hallucinating information. If you don't know, state so clearly." },
             { role: "user" as const, content: `Context:\n${context}\n\nQuestion: ${question}` }
         ];
 
