@@ -109,12 +109,23 @@ export function AiAssistant() {
                             </p>
                         </div>
                     </div>
-                    <button
-                        onClick={() => setIsOpen(false)}
-                        className="p-2 text-gray-400 hover:text-white transition-colors rounded-lg hover:bg-white/10"
-                    >
-                        <X className="w-5 h-5" />
-                    </button>
+                    <div className="flex items-center gap-1">
+                        {isReady && messages.length > 1 && (
+                            <button
+                                onClick={() => setMessages([{ role: 'assistant', content: "Hi! I'm Kushagra's local AI assistant. I've read his resume—what would you like to know?" }])}
+                                className="px-2 py-1 text-xs text-gray-400 hover:text-white transition-colors rounded-lg hover:bg-white/10"
+                                title="Clear Chat"
+                            >
+                                Clear
+                            </button>
+                        )}
+                        <button
+                            onClick={() => setIsOpen(false)}
+                            className="p-2 text-gray-400 hover:text-white transition-colors rounded-lg hover:bg-white/10"
+                        >
+                            <X className="w-5 h-5" />
+                        </button>
+                    </div>
                 </div>
 
                 {/* Content Area */}
