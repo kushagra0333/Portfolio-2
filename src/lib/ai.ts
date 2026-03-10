@@ -24,7 +24,7 @@ export class AssistantAIEngine {
     async init(onProgress: (progress: number, text: string) => void) {
         if (this.isInitialized) return;
 
-        if (!navigator.gpu) {
+        if (!(navigator as any).gpu) {
             throw new Error("WebGPU is not supported by your browser. The AI requires WebGPU to run locally.");
         }
 
