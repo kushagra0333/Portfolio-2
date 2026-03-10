@@ -17,23 +17,23 @@ export function Contact() {
 
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Contact info */}
             <div className="space-y-6">
-              <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8">
-                <h4 className="text-2xl mb-6">Contact Information</h4>
+              <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-white/20 transition-colors h-full">
+                <h4 className="text-2xl font-semibold mb-8 tracking-tight">Contact Information</h4>
 
                 <div className="space-y-4">
                   {/* Email */}
                   <a
                     href="mailto:kushagrapandey0333@gmail.com"
-                    className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all group"
+                    className="flex items-center gap-5 p-5 bg-white/5 border border-white/5 rounded-2xl hover:bg-white/10 hover:border-white/20 transition-all group hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/10"
                   >
-                    <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center group-hover:scale-110 transition-transform">
-                      <Mail className="w-6 h-6" />
+                    <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-blue-500 group-hover:to-purple-500 transition-all duration-300">
+                      <Mail className="w-7 h-7 text-blue-400 group-hover:text-white transition-colors" />
                     </div>
                     <div>
-                      <div className="text-sm text-gray-400">Email</div>
-                      <div className="text-blue-400 font-mono">kushagrapandey0333@gmail.com</div>
+                      <div className="text-sm font-medium text-gray-400 mb-1">Email</div>
+                      <div className="text-gray-200 group-hover:text-blue-400 transition-colors break-all hidden sm:block">kushagrapandey0333@gmail.com</div>
+                      <div className="text-gray-200 group-hover:text-blue-400 transition-colors break-all sm:hidden">Send Email 👋</div>
                     </div>
                   </a>
 
@@ -42,14 +42,15 @@ export function Contact() {
                     href="https://github.com/kushagra0333"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all group"
+                    className="flex items-center gap-5 p-5 bg-white/5 border border-white/5 rounded-2xl hover:bg-white/10 hover:border-white/20 transition-all group hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/10"
                   >
-                    <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center group-hover:scale-110 transition-transform">
-                      <Github className="w-6 h-6" />
+                    <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-purple-500 group-hover:to-pink-500 transition-all duration-300">
+                      <Github className="w-7 h-7 text-purple-400 group-hover:text-white transition-colors" />
                     </div>
                     <div>
-                      <div className="text-sm text-gray-400">GitHub</div>
-                      <div className="text-purple-400 font-mono">github.com/kushagra0333</div>
+                      <div className="text-sm font-medium text-gray-400 mb-1">GitHub</div>
+                      <div className="text-gray-200 group-hover:text-purple-400 transition-colors hidden sm:block">github.com/kushagra0333</div>
+                      <div className="text-gray-200 group-hover:text-purple-400 transition-colors sm:hidden">@kushagra0333</div>
                     </div>
                   </a>
 
@@ -58,14 +59,14 @@ export function Contact() {
                     href="https://linkedin.com/in/its-kushagra-pandey"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all group"
+                    className="flex items-center gap-5 p-5 bg-white/5 border border-white/5 rounded-2xl hover:bg-white/10 hover:border-white/20 transition-all group hover:-translate-y-1 hover:shadow-lg hover:shadow-pink-500/10"
                   >
-                    <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-pink-500 to-orange-500 flex items-center justify-center group-hover:scale-110 transition-transform">
-                      <Linkedin className="w-6 h-6" />
+                    <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-pink-500/20 to-orange-500/20 flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-pink-500 group-hover:to-orange-500 transition-all duration-300">
+                      <Linkedin className="w-7 h-7 text-pink-400 group-hover:text-white transition-colors" />
                     </div>
                     <div>
-                      <div className="text-sm text-gray-400">LinkedIn</div>
-                      <div className="text-pink-400 font-mono">linkedin.com/in/its-kushagra-pandey</div>
+                      <div className="text-sm font-medium text-gray-400 mb-1">LinkedIn</div>
+                      <div className="text-gray-200 group-hover:text-pink-400 transition-colors truncate w-40 sm:w-auto">linkedin.com/in/its-kushagra-pandey</div>
                     </div>
                   </a>
                 </div>
