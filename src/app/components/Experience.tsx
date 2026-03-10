@@ -57,18 +57,20 @@ export function Experience() {
                 </div>
 
                 {/* Content card */}
-                <div className="ml-16 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 md:p-8 hover:bg-white/10 transition-all group-hover:shadow-2xl group-hover:shadow-blue-500/10 group-hover:translate-x-2">
+                <div className="ml-16 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all group-hover:shadow-[0_0_40px_-15px_rgba(59,130,246,0.3)] group-hover:border-white/20 group-hover:translate-x-2">
                   {/* Year badge */}
-                  <div className={`inline-block px-3 py-1 bg-gradient-to-r ${exp.color} rounded-full text-sm font-mono mb-4`}>
+                  <div className={`inline-flex items-center px-4 py-1.5 bg-gradient-to-r ${exp.color} rounded-full text-sm font-semibold tracking-wide mb-6 shadow-lg shadow-black/20 text-white`}>
                     {exp.year}
                   </div>
 
                   {/* Role and company */}
-                  <h4 className="text-2xl mb-2">{exp.role}</h4>
-                  <p className="text-blue-400 font-mono mb-4">{exp.company}</p>
+                  <h4 className="text-2xl font-bold mb-2 tracking-tight">{exp.role}</h4>
+                  <div className="flex items-center gap-2 mb-4">
+                    <span className="text-blue-400 font-mono text-sm">{exp.company}</span>
+                  </div>
 
                   {/* Description */}
-                  <p className="text-gray-400 leading-relaxed">
+                  <p className="text-gray-400/90 leading-relaxed text-sm md:text-base">
                     {exp.description}
                   </p>
                 </div>
