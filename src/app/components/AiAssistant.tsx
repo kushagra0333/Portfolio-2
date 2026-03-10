@@ -40,9 +40,10 @@ export function AiAssistant() {
                 role: 'assistant',
                 content: "Hi! I'm Kushagra's local AI assistant. I've read his resume—what would you like to know?"
             }]);
-        } catch (e) {
+        } catch (e: any) {
             console.error(e);
-            setProgressText('Failed to initialize model. Please check console for errors.');
+            const errMsg = e instanceof Error ? e.message : 'Unknown error';
+            setProgressText(`Failed to initialize model: ${errMsg}`);
         } finally {
             setIsInitializing(false);
         }
