@@ -43,17 +43,18 @@ export function Experience() {
 
         {/* Timeline */}
         <div className="max-w-4xl mx-auto">
-          <div className="space-y-8">
+          <div className="space-y-12">
             {experiences.map((exp, index) => (
               <div key={index} className="relative group">
                 {/* Timeline line */}
                 {index !== experiences.length - 1 && (
-                  <div className="absolute left-6 top-16 bottom-0 w-px bg-gradient-to-b from-blue-500/50 to-purple-500/50"></div>
+                  <div className="absolute left-6 top-20 bottom-[-3rem] w-px bg-gradient-to-b from-blue-500/20 to-purple-500/20 group-hover:from-blue-500/50 group-hover:to-purple-500/50 transition-colors duration-500"></div>
                 )}
 
                 {/* Timeline dot */}
-                <div className="absolute left-6 top-6 w-px h-px">
-                  <div className={`absolute -left-2 -top-2 w-4 h-4 rounded-full bg-gradient-to-r ${exp.color} shadow-lg shadow-blue-500/50 group-hover:scale-150 transition-transform`}></div>
+                <div className="absolute left-6 top-8 w-px h-px">
+                  <div className={`absolute -left-3 -top-3 w-6 h-6 rounded-full bg-black border-4 border-gray-800 z-10 group-hover:border-transparent transition-colors duration-300`}></div>
+                  <div className={`absolute -left-3 -top-3 w-6 h-6 rounded-full bg-gradient-to-r ${exp.color} shadow-lg shadow-blue-500/50 scale-0 group-hover:scale-100 transition-transform duration-500 z-20`}></div>
                 </div>
 
                 {/* Content card */}
