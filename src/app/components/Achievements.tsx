@@ -71,19 +71,20 @@ export function Achievements() {
         </div>
 
         {/* Stats banner */}
-        <div className="mt-16 bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-md border border-white/10 rounded-2xl p-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div>
-              <div className="text-4xl md:text-5xl bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">8.3</div>
-              <div className="text-gray-400">CGPA</div>
+        <div className="mt-20 bg-gradient-to-r from-blue-900/30 via-purple-900/30 to-blue-900/30 backdrop-blur-xl border border-white/10 rounded-3xl p-10 relative overflow-hidden">
+          <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay"></div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center relative z-10">
+            <div className="flex flex-col items-center justify-center p-4">
+              <div className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-3 drop-shadow-sm">8.3</div>
+              <div className="text-gray-300 font-medium tracking-wide uppercase text-sm">CGPA</div>
             </div>
-            <div>
-              <div className="text-4xl md:text-5xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">3+</div>
-              <div className="text-gray-400">Hackathon Wins</div>
+            <div className="flex flex-col items-center justify-center p-4 md:border-x border-white/10">
+              <div className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-3 drop-shadow-sm">3+</div>
+              <div className="text-gray-300 font-medium tracking-wide uppercase text-sm">Hackathon Wins</div>
             </div>
-            <div>
-              <div className="text-4xl md:text-5xl bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent mb-2">3+</div>
-              <div className="text-gray-400">Major Projects</div>
+            <div className="flex flex-col items-center justify-center p-4">
+              <div className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent mb-3 drop-shadow-sm">3+</div>
+              <div className="text-gray-300 font-medium tracking-wide uppercase text-sm">Major Projects</div>
             </div>
           </div>
         </div>
