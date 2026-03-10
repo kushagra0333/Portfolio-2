@@ -24,6 +24,10 @@ export class AssistantAIEngine {
     async init(onProgress: (progress: number, text: string) => void) {
         if (this.isInitialized) return;
 
+        if (!navigator.gpu) {
+            throw new Error("WebGPU is not supported by your browser. The AI requires WebGPU to run locally.");
+        }
+
         onProgress(5, 'Initialize feature extraction...');
         // Initialize embedding model
         this.extractor = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2', {
