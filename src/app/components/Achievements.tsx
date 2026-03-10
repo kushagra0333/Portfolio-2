@@ -36,38 +36,35 @@ export function Achievements() {
           <h3 className="text-4xl md:text-5xl">Achievements & Awards</h3>
         </div>
 
-        {/* Achievements grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {achievements.map((achievement, index) => {
             const Icon = achievement.icon;
             return (
               <div
                 key={index}
-                className="group relative overflow-hidden"
+                className="group relative overflow-hidden rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 p-8 hover:bg-white/10 transition-all hover:shadow-[0_0_40px_-15px_rgba(59,130,246,0.3)] hover:-translate-y-2"
               >
-                {/* Card */}
-                <div className="relative bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 h-full hover:bg-white/10 transition-all hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-2">
-                  {/* Icon with gradient background */}
-                  <div className={`inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-r ${achievement.gradient} mb-4 group-hover:scale-110 transition-transform`}>
-                    <Icon className="w-7 h-7 text-white" />
-                  </div>
-
-                  {/* Title */}
-                  <h4 className="text-xl mb-2">{achievement.title}</h4>
-
-                  {/* Event */}
-                  <p className="text-blue-400 font-mono text-sm mb-2">
-                    {achievement.event}
-                  </p>
-
-                  {/* Location */}
-                  <p className="text-gray-400 text-sm">
-                    {achievement.location}
-                  </p>
-
-                  {/* Decorative gradient bar */}
-                  <div className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${achievement.gradient} transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left`}></div>
+                {/* Icon with gradient background */}
+                <div className={`inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br ${achievement.gradient} mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg`}>
+                  <Icon className="w-8 h-8 text-white" />
                 </div>
+
+                {/* Title */}
+                <h4 className="text-2xl font-semibold mb-3 tracking-tight">{achievement.title}</h4>
+
+                {/* Event */}
+                <p className="text-blue-400 font-mono text-sm mb-3">
+                  {achievement.event}
+                </p>
+
+                {/* Location */}
+                <div className="flex items-center text-gray-400 text-sm">
+                  <TrendingUp className="w-4 h-4 mr-2 opacity-50" />
+                  {achievement.location}
+                </div>
+
+                {/* Decorative gradient bar */}
+                <div className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${achievement.gradient} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left`}></div>
               </div>
             );
           })}
