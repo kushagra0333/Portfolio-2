@@ -1,4 +1,4 @@
-# Arjav Jain - Personal Portfolio
+# Kushagra Pandey - Personal Portfolio
 
 A modern, highly interactive personal portfolio website designed to showcase projects, experience, skills, and achievements. The project is built using React, Vite, Tailwind CSS, and various modern UI libraries for a smooth, app-like user experience.
 
@@ -34,7 +34,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/arjavjain5203/Portfolio2.git
+   git clone https://github.com/kushagra0333/Portfolio-2.git
    ```
 2. Navigate to the project directory (or use your local directory if already cloned):
    ```bash
@@ -54,5 +54,5 @@ To get a local copy up and running, follow these simple steps:
 
 I am a passionate software developer specializing in AI systems, back-end API development, and full-stack solutions. With experiences spanning across building AI workflow agents on n8n, open-source development, and creating custom C++ compilers, I am continually pushing the boundaries of what's possible in tech.
 
-- 🔗 **LinkedIn**: [arjavjain5203](https://www.linkedin.com/in/arjavjain5203/)
-- 🐙 **GitHub**: [arjavjain5203](https://github.com/arjavjain5203)# Portfolio-2
+- 🔗 **LinkedIn**: [its-kushagra-pandey](https://www.linkedin.com/in/its-kushagra-pandey/)
+- 🐙 **GitHub**: [kushagra0333](https://github.com/kushagra0333)
