@@ -7,7 +7,6 @@ import { Experience } from './components/Experience';
 import { Achievements } from './components/Achievements';
 import { Contact } from './components/Contact';
 import { ParticleBackground } from './components/ParticleBackground';
-import { AiAssistant } from './components/AiAssistant';
 
 export default function App() {
   return (
@@ -23,7 +22,6 @@ export default function App() {
         <Achievements />
         <Contact />
       </main>
-      <AiAssistant />
       <footer className="relative z-10 border-t border-white/10 bg-black/50 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-center text-gray-400 text-sm font-mono">

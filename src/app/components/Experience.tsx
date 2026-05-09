@@ -1,31 +1,35 @@
 const experiences = [
   {
-    year: 'Nov 2025 – Present',
-    role: 'Software Development Engineer',
+    year: 'Nov 2025 – Jan 2026',
+    role: 'Software Development Engineer Intern',
     company: 'Agreeya Solutions',
-    description: 'Developed scalable RESTful APIs using Python and Node.js for high-concurrency backend services. Implemented authentication and authorization using JWT, optimized MongoDB/SQL queries reducing latency by 35%, and resolved production issues.',
+    description:
+      'Developed and optimized high-performance RESTful APIs using Python and backend frameworks, improving application performance by 20% and reducing API response latency by 150ms. Built scalable backend services capable of handling 1K+ daily requests while ensuring production reliability and fault tolerance. Debugged and resolved 20+ critical production issues, reducing turnaround time by 30% and improving system stability. Collaborated in Agile sprint cycles, contributing to 10+ feature releases using Git-based version control workflows, code reviews, and CI/CD deployment practices.',
     color: 'from-blue-500 to-purple-500',
+  },
+  {
+    year: 'Nov 2025 – Mar 2026',
+    role: 'Mobile App Development Intern',
+    company: 'Xdigipath Software India Pvt. Ltd.',
+    description:
+      'Developed and enhanced cross-platform mobile applications using Flutter and Dart, focusing on scalable architecture, responsive UI components, and optimized application workflows. Integrated APIs and third-party services to improve app functionality and user experience. Debugged and resolved application-level issues, improving performance, responsiveness, and stability across Android platforms. Assisted in deployment processes, version management, and feature integration while collaborating with backend and design teams in an Agile development environment.',
+    color: 'from-orange-500 to-yellow-500',
   },
   {
     year: 'Aug 2025 – Oct 2025',
     role: 'Open Source Project Admin',
     company: 'GirlScript Summer of Code',
-    description: 'Led and mentored 20+ contributors on an education-focused open-source project. Managed issue tracking, pull request reviews, and roadmap planning ensuring code quality and timely feature delivery.',
+    description:
+      'Led and mentored 20+ open-source contributors while managing 50+ pull requests and issue resolutions across the project lifecycle. Planned and executed project roadmaps, ensuring 100% on-time milestone delivery and efficient collaboration between contributors. Conducted code reviews, enforced coding standards, and implemented quality assurance practices that reduced bug reports by 30%. Coordinated repository management, contributor onboarding, documentation improvements, and feature planning for scalable open-source development.',
     color: 'from-purple-500 to-pink-500',
   },
   {
-    year: 'Feb 2024 – Jul 2024',
-    role: 'Backend Developer Intern',
+    year: 'Feb 2024 – May 2024',
+    role: 'Frontend Developer Intern',
     company: 'MakerStage',
-    description: 'Developed REST APIs for an event management platform using Node.js and Express. Designed MongoDB schemas, integrated third-party services such as payment gateways, and deployed backend services on cloud infrastructure.',
+    description:
+      'Developed scalable and responsive web applications using React.js, Tailwind CSS, and modern frontend development practices. Built reusable UI components and optimized application rendering performance, improving page load speed and user experience. Implemented responsive layouts, state management, and interactive user interfaces aligned with modern design standards. Collaborated with backend developers and designers to integrate APIs, enhance accessibility, and deliver production-ready frontend solutions in an Agile workflow.',
     color: 'from-pink-500 to-orange-500',
-  },
-  {
-    year: 'Jan 2024 – Jul 2024',
-    role: 'Backend Developer Intern',
-    company: 'Xdigipath Software India Pvt. Ltd.',
-    description: 'Developed backend services for mobile applications using Node.js and Express.js. Implemented CRUD APIs, improved backend stability, and assisted in integrating authentication and payment third-party APIs.',
-    color: 'from-orange-500 to-yellow-500',
   },
 ];
 

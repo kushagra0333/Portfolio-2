@@ -4,31 +4,95 @@ const skillCategories = [
   {
     title: 'Languages',
     icon: '💻',
-    skills: ['JavaScript', 'Python', 'Java', 'C/C++', 'SQL', 'HTML', 'CSS'],
+    skills: [
+      { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg' },
+      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg' },
+      { name: 'C/C++', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg' },
+      { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg' },
+      { name: 'SQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg' },
+      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg' },
+      { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg' },
+    ],
     color: 'from-blue-500 to-cyan-500',
   },
   {
     title: 'Frontend & UI',
     icon: '🎨',
-    skills: ['React.js', 'Next.js', 'Tailwind CSS', 'Bootstrap', 'HTML5', 'CSS3'],
+    skills: [
+      { name: 'React.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg' },
+      { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg' },
+      { name: 'Next.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg' },
+      { name: 'Tailwind CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg' },
+      { name: 'XHTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg' },
+      { name: 'Bootstrap', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg' },
+      { name: 'HTML5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg' },
+      { name: 'CSS3', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg' },
+    ],
     color: 'from-purple-500 to-pink-500',
   },
   {
     title: 'Backend & APIs',
     icon: '⚙️',
-    skills: ['Node.js', 'Express.js', 'RESTful APIs', 'Microservices', 'JWT', 'Middleware Design'],
+    skills: [
+      { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg' },
+      { name: 'Express.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg' },
+      { name: 'Flask', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg' },
+      { name: 'FastAPI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg' },
+      { name: 'REST APIs', icon: '🔗' },
+      { name: 'JWT Auth', icon: '🔑' },
+      { name: 'Microservices', icon: '🧩' },
+      { name: 'Middleware', icon: '🔀' },
+    ],
     color: 'from-orange-500 to-yellow-500',
   },
   {
-    title: 'Database & Cloud',
+    title: 'Cloud & DevOps',
+    icon: '☁️',
+    skills: [
+      { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg' },
+      { name: 'Kubernetes', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg' },
+      { name: 'AWS (EC2, S3, IAM)', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg' },
+      { name: 'CI/CD (GitHub Actions)', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg' },
+      { name: 'CI/CD Pipelines', icon: '🚀' },
+    ],
+    color: 'from-indigo-400 to-blue-400',
+  },
+  {
+    title: 'Systems',
+    icon: '🖥️',
+    skills: [
+      { name: 'Linux/Unix', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg' },
+      { name: 'Compiler Design', icon: '⚙️' },
+      { name: 'x86-64 Assembly', icon: '🛠️' },
+      { name: 'CMake', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cmake/cmake-original.svg' },
+      { name: 'NASM', icon: '🔧' },
+      { name: 'GNU LD', icon: '🖇️' },
+    ],
+    color: 'from-teal-400 to-emerald-500',
+  },
+  {
+    title: 'Databases',
     icon: '🗄️',
-    skills: ['MongoDB', 'PostgreSQL', 'SQL', 'Docker', 'Linux', 'CI/CD Pipelines'],
+    skills: [
+      { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg' },
+      { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg' },
+      { name: 'SQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg' },
+    ],
     color: 'from-green-500 to-emerald-500',
   },
   {
     title: 'Core Concepts',
     icon: '🧠',
-    skills: ['Data Structures & Algorithms', 'System Design', 'OOP', 'Query Optimization', 'API Rate Limiting'],
+    skills: [
+      { name: 'Data Structures', icon: '📊' },
+      { name: 'System Design', icon: '🏗️' },
+      { name: 'Computer Networking', icon: '🌐' },
+      { name: 'OOP', icon: '📦' },
+      { name: 'Software Design', icon: '📐' },
+      { name: 'Distributed Systems', icon: '🔗' },
+      { name: 'Query Optimization', icon: '⚡' },
+      { name: 'API Rate Limiting', icon: '🚦' },
+    ],
     color: 'from-pink-500 to-rose-500',
   },
 ];
@@ -73,10 +137,15 @@ export function Skills() {
                 <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill) => (
                     <span
-                      key={skill}
-                      className={`px-3 py-1.5 bg-gradient-to-r ${category.color} bg-opacity-10 backdrop-blur-sm border border-white/20 rounded-lg text-sm font-mono`}
+                      key={skill.name}
+                      className={`px-3 py-1.5 flex items-center gap-2 bg-gradient-to-r ${category.color} bg-opacity-10 backdrop-blur-sm border border-white/20 rounded-lg text-sm font-mono`}
                     >
-                      {skill}
+                      {skill.icon.startsWith('http') ? (
+                        <img src={skill.icon} alt={`${skill.name} icon`} className="w-4 h-4 object-contain" />
+                      ) : (
+                        <span className="text-base">{skill.icon}</span>
+                      )}
+                      {skill.name}
                     </span>
                   ))}
                 </div>

@@ -79,11 +79,11 @@ export function Achievements() {
               <div className="text-gray-300 font-medium tracking-wide uppercase text-sm">CGPA</div>
             </div>
             <div className="flex flex-col items-center justify-center p-4 md:border-x border-white/10">
-              <div className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-3 drop-shadow-sm">3+</div>
+              <div className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-3 drop-shadow-sm">2</div>
               <div className="text-gray-300 font-medium tracking-wide uppercase text-sm">Hackathon Wins</div>
             </div>
             <div className="flex flex-col items-center justify-center p-4">
-              <div className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent mb-3 drop-shadow-sm">3+</div>
+              <div className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent mb-3 drop-shadow-sm">5+</div>
               <div className="text-gray-300 font-medium tracking-wide uppercase text-sm">Major Projects</div>
             </div>
           </div>

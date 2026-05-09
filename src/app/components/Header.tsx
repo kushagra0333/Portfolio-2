@@ -15,7 +15,8 @@ export function Header() {
             Kushagra Pandey
             <span className="text-purple-400">/&gt;</span>
           </div>
-          <div className="hidden md:flex items-center gap-8">
+          <div className="flex items-center gap-4 md:gap-8">
+            <div className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection('about')}
               className="text-sm text-gray-300 hover:text-blue-400 transition-colors"
@@ -46,10 +47,16 @@ export function Header() {
             >
               Contact
             </button>
-            <button className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all">
+            </div>
+            <a 
+              href="https://drive.google.com/file/d/1D6xMYhNNoxtBOZZ-sbaR41NwfeMHpOp1/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all"
+            >
               <Download className="w-4 h-4" />
               <span className="text-sm">Resume</span>
-            </button>
+            </a>
           </div>
         </div>
       </nav>
